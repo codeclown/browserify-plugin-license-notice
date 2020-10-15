@@ -5,7 +5,7 @@
     "browserify-bundle-license-notice": "./src/cli.js"
   },
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/plugin.js",
   "author": "Martti Laine",
   "license": "MIT",
   "keywords": [
