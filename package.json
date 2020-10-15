@@ -1,0 +1,21 @@
+{
+  "name": "browserify-plugin-license-notice",
+  "description": "Extract third-party licenses to a file.",
+  "bin": {
+    "browserify-bundle-license-notice": "./src/cli.js"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Martti Laine",
+  "license": "MIT",
+  "keywords": [
+    "browserify",
+    "browserify-plugin"
+  ],
+  "dependencies": {
+    "browser-unpack": "^1.4.2",
+    "jest-diff": "^26.5.2",
+    "subarg": "^1.0.0",
+    "through2": "^4.0.2"
+  }
+}
